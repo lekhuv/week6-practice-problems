@@ -18,11 +18,23 @@ franchise = {
     'marvel' : ['Hulk', 'Thor', 'Black Widow']
 }
 z = [ {'x': 10, 'y': 20} ]
-#1.) How would you change the value 10 in x to 15?  Once you're done x should then be [ [5,2,3], [15,8,9] ].  
-#2.) How would you change the hero_name of the first hero from 'Batman' to "Dark Knight"?
-#3.) For the franchise dictionary, how would you change 'Aquaman' to 'Daredevil'?
-#4.) For z, how would you change the value 20 to 30?
 
+#1.) How would you change the value 10 in x to 15?  Once you're done x should then be [ [5,2,3], [15,8,9]].
+x= [[5,2,3], [15,8,9]]
+print(x)
+ 
+#2.) How would you change the hero_name of the first hero from 'Batman' to "Dark Knight"?
+heros = [{'real_name':  'Bruce Wayne', 'hero_name' : 'Dark Knight'}, {'real_name' : 'Tony Stark', 'hero_name' : 'Ironman'}]
+print(heros)
+#3.) For the franchise dictionary, how would you change 'Aquaman' to 'Daredevil'?
+franchise = {
+    'dc' : ['Batman', 'Daredevil', 'Wonder Woman', 'Superman'],
+    'marvel' : ['Hulk', 'Thor', 'Black Widow']
+}
+print(franchise,[])
+#4.) For z, how would you change the value 20 to 30?
+z = [ {'x': 10, 'y': 30} ]
+print(z)
 #-----------------------------------------------------------------
 #Problem 2
 #Create a function that given a list of dictionaries, it loops through each dictionary in the list and prints each key and the associated value.  
